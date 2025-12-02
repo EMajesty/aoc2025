@@ -1,7 +1,7 @@
 use std::{fs, io, path::Path};
 
 mod day1;
-// mod day2;
+mod day2;
 // mod day3;
 // mod day4;
 // mod day5;
@@ -32,6 +32,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 fn functions() -> Vec<EntryFn> {
     vec![
         day1::entry,
+        day2::entry,
     ]
 }
 
